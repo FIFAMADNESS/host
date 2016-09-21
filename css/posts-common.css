@@ -1,0 +1,37 @@
+	  /*/////////////////////////*/
+	 /*/// POSTS COMMONS CSS ///*/
+	/*/////////////////////////*/
+	#intro-body-scrollbox {
+		overflow: auto;
+		max-height: 96px;
+		width: 100% !important;
+	}
+	#basic-body-scrollbox {
+		overflow: auto;
+		max-height: 480px;
+		width: 100% !important;
+	}
+	.image-wrap {
+		overflow: hidden;
+		margin: 10px;
+		border-radius: 4px;
+		-webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.125);
+		-moz-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.125);
+		box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.125);
+	}
+	.intro-body-wrap,
+	.basic-body-wrap {
+		margin: 20px 10px 10px 10px;
+		background-color: rgb(229, 229, 229);
+		border-radius: 4px;
+		border: 1px solid rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1) inset;
+		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1) inset;
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1) inset;
+	}
+	.intro-body-wrap .intro-body,
+	.basic-body-wrap .basic-body  {
+		padding: 4px 18px 10px 10px !important;
+		font-family: Lato, sans-serif;
+		font-size: 14px;
+	}

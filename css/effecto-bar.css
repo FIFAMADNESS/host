@@ -1,0 +1,14 @@
+	  /*///////////////////////////*/
+	 /*///// EFFECTO BAR CSS /////*/
+    /*//////////////////////////*//
+	#effecto_bar, #effecto_bar iframe {
+		height: 162px !important;
+	}
+	#effecto_bar {
+		margin-top: -42px;
+		background-color: rgba(229,229,229, 1.0);
+		background-image: url('https://lh3.googleusercontent.com/-_QlCaudCO20/V8qhrS8Z98I/AAAAAAAAAOs/yFgKlhtgct4BRpQ2kdkg7LYv4K3ZH8DZQCLcB/s188/3d-back-white-50.png');
+	}
+	#effecto_bar iframe{
+ 
+	}

@@ -1,0 +1,54 @@
+ /* Tabbed Comments */
+.comment-count {
+ padding-right: 1.0em;
+ }
+.comment-count a{
+ color: #fff !important;
+ }
+.blog-comment-tabs {
+ list-style: none;
+ float: left;
+ margin: 15px 0;
+ display: inline-block;
+ padding: 0;
+ width: 100%;
+ background: #444;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+ box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+ }
+.blog-comment {
+ font-family: 'Open Sans Condensed';
+ float: left;
+ font-size: 1.2em;
+ list-style: none outside none;
+ text-transform: uppercase;
+ width: 27.5%;
+ margin: 1px;
+ padding: 10px 20px !important;
+ font-weight: normal;
+ color: #fff;
+ cursor: pointer;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+-ms-transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out;
+ }
+.blog-comment.selected {
+ cursor: pointer;
+ padding: 11px 20px !important;
+ margin: 0 0 0 -8px;
+ }
+.blogger-comment.selected {
+ background: #FC9F4E;
+ }
+.fb-comment.selected {
+ background: #3E5C9A;
+ }
+.disqus-comment.selected {
+ background: #67C0E0; 
+ }
+.commenticon {
+ margin-right: 15px;
+ }
